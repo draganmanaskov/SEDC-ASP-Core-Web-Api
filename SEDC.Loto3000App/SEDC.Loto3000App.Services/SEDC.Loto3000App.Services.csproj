@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lucene.Net" Version="3.0.3" />
+    <PackageReference Include="XAct.Core.PCL" Version="0.0.5014" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SEDC.Loto3000App.DataAccess\SEDC.Loto3000App.DataAccess.csproj" />
+    <ProjectReference Include="..\SEDC.Loto3000App.Domain\SEDC.Loto3000App.Domain.csproj" />
+    <ProjectReference Include="..\SEDC.Loto3000App.Dtos\SEDC.Loto3000App.Dtos.csproj" />
+    <ProjectReference Include="..\SEDC.Loto3000App.Mappers\SEDC.Loto3000App.Mappers.csproj" />
+    <ProjectReference Include="..\SEDC.Loto3000App.Shared\SEDC.Loto3000App.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
