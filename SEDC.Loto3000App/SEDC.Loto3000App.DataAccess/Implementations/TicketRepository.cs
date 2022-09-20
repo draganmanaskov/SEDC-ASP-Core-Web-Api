@@ -1,6 +1,5 @@
 ﻿using SEDC.Loto3000App.DataAccess.Interfaces;
 using SEDC.Loto3000App.Domain.Models;
-using SEDC.Loto3000App.Dtos.WinningTickets;
 
 namespace SEDC.Loto3000App.DataAccess.Implementations
 {
